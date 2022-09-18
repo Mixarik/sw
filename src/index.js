@@ -1,7 +1,7 @@
 class SwapiService {
     _swapiBase = 'https://swapi.dev/api/';
 
-    async GetInfo(url) {
+    async getInfo(url) {
         const res = await fetch(`${this._swapiBase}${url}`);
         if (!res.ok) {
             throw new Error(`could not fetch${url} , recived ${res.status}`)
@@ -16,25 +16,25 @@ class SwapiService {
    };
 
     getPiople (id){
-        this.GetInfo(`people/${id}/`);
+        this.getInfo(`people/${id}/`);
     };
 
     async getAllPlanets (){
-        const res = await this.GetInfo('planets/');
+        const res = await this.getInfo('planets/');
         return res.results
     };
 
     getPlanet (id){
-        this.GetInfo(`planets/${id}/`);
+        this.getInfo(`planets/${id}/`);
     };
 
     async getAllStarships (){
-        const res = await this.GetInfo('starships/');
+        const res = await this.getInfo('starships/');
         return res.results
     };
 
     getStarship (id){
-        this.GetInfo(`starships/${id}/`);
+        this.getInfo(`starships/${id}/`);
     };
 }
 
