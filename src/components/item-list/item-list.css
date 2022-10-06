@@ -1,0 +1,11 @@
+.list-group{
+    width: 30rem;
+}
+.list-group-item{
+    background-color: rgb(42,42,42);
+    cursor: pointer;
+}
+
+.list-group-item:hover{
+    color: red;
+}

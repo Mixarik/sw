@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    align-items: center;
+    margin: 1rem 3rem 4rem;
+}
+.header h3 a{
+    color: white;
+}
+
+.header-list ul{
+    display: flex;
+    margin: 0;
+}
+.header-list ul li{
+    margin-left: 1rem;
+    list-style-type: none;
+}
+.header-list ul li a {
+    font-size: 20px;
+}

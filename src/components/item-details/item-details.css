@@ -1,0 +1,31 @@
+.personDetails {
+    height: 14rem;
+    display: flex;
+    background-color: rgb(42, 42, 42);
+    border-radius: 10px;
+    width: 30rem;
+}
+
+.personDetails-block {
+    display: flex;
+    align-items: center;
+}
+
+.personDetails-img img {
+    height: 9rem;
+    margin: 0 2rem;
+    border-radius: 10px;
+}
+
+.personDetails-listInfo hr {
+    margin: 10px;
+    background-color: gray;
+    color: gray;
+
+}
+
+.personDetails-listInfo li {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
