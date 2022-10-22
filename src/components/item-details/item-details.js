@@ -27,3 +27,15 @@ const ItemDetails = ({getInfoItem, getImageId, recordInfo }) => {
 };
 
 export default ItemDetails
+
+const Record = ({field, label, item}) => {
+  return (
+    <div>
+      <hr/>
+      <li> {label} :{item[field]}</li>
+    </div>
+  )
+};
+export {
+  Record
+}

@@ -1,6 +1,7 @@
 .app{
     display: flex;
     flex-direction: column;
+    margin-bottom: 2rem;
 }
 .app-main{
     margin: 0 8rem;

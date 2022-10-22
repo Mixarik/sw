@@ -3,18 +3,23 @@
     align-items: center;
     margin: 1rem 3rem 4rem;
 }
-.header h3 a{
+
+.header h3 a {
     color: white;
+    text-decoration: none;
 }
 
-.header-list ul{
+.header-list ul {
     display: flex;
     margin: 0;
 }
-.header-list ul li{
-    margin-left: 1rem;
+
+.header-list ul li {
+    margin-left: 2rem;
     list-style-type: none;
-}
-.header-list ul li a {
     font-size: 20px;
+}
+
+.header-list ul li a {
+    text-decoration: none;
 }

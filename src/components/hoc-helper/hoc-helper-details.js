@@ -35,3 +35,4 @@ function WithDataDetails(View, getData, getImageUrl) {
   })
 }
 export default WithDataDetails
+
